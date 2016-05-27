@@ -1,0 +1,227 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\I027737\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.8.1
+3 info using node@v4.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData express
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/express
+24 silly fetchNamedPackageData request
+25 silly mapToRegistry name request
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/request
+29 silly fetchNamedPackageData oauth
+30 silly mapToRegistry name oauth
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/oauth
+34 silly fetchNamedPackageData twitter
+35 silly mapToRegistry name twitter
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/twitter
+39 silly fetchNamedPackageData hdb
+40 silly mapToRegistry name hdb
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/hdb
+44 silly fetchNamedPackageData emoji-strip
+45 silly mapToRegistry name emoji-strip
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/emoji-strip
+49 verbose request uri https://registry.npmjs.org/express
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 2:22:13 PM
+52 verbose request id 43cbbb1c2f524859
+53 http request GET https://registry.npmjs.org/express
+54 verbose request uri https://registry.npmjs.org/request
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 2:22:13 PM
+57 http request GET https://registry.npmjs.org/request
+58 verbose request uri https://registry.npmjs.org/oauth
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 2:22:13 PM
+61 http request GET https://registry.npmjs.org/oauth
+62 verbose request uri https://registry.npmjs.org/hdb
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 2:22:13 PM
+65 http request GET https://registry.npmjs.org/hdb
+66 verbose request uri https://registry.npmjs.org/emoji-strip
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 2:22:13 PM
+69 http request GET https://registry.npmjs.org/emoji-strip
+70 verbose request uri https://registry.npmjs.org/twitter
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 2:22:13 PM
+73 http request GET https://registry.npmjs.org/twitter
+74 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+75 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+76 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+77 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+78 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+79 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+80 info attempt registry request try #2 at 2:22:23 PM
+81 http request GET https://registry.npmjs.org/hdb
+82 info attempt registry request try #2 at 2:22:23 PM
+83 http request GET https://registry.npmjs.org/express
+84 info attempt registry request try #2 at 2:22:23 PM
+85 http request GET https://registry.npmjs.org/emoji-strip
+86 info attempt registry request try #2 at 2:22:23 PM
+87 http request GET https://registry.npmjs.org/twitter
+88 info attempt registry request try #2 at 2:22:23 PM
+89 http request GET https://registry.npmjs.org/request
+90 info attempt registry request try #2 at 2:22:23 PM
+91 http request GET https://registry.npmjs.org/oauth
+92 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+93 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+94 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+95 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+96 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+97 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+98 info attempt registry request try #3 at 2:23:23 PM
+99 http request GET https://registry.npmjs.org/hdb
+100 info attempt registry request try #3 at 2:23:23 PM
+101 http request GET https://registry.npmjs.org/express
+102 info attempt registry request try #3 at 2:23:23 PM
+103 http request GET https://registry.npmjs.org/emoji-strip
+104 info attempt registry request try #3 at 2:23:23 PM
+105 http request GET https://registry.npmjs.org/twitter
+106 info attempt registry request try #3 at 2:23:23 PM
+107 http request GET https://registry.npmjs.org/request
+108 info attempt registry request try #3 at 2:23:23 PM
+109 http request GET https://registry.npmjs.org/oauth
+110 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+110 silly fetchPackageMetaData
+110 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+110 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+110 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+110 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+110 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+110 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+110 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+110 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+110 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+110 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+110 silly fetchPackageMetaData  error for hdb@0.3.* { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+110 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+111 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+111 silly fetchPackageMetaData
+111 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+111 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+111 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+111 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+111 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+111 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+111 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+111 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+111 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+111 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+111 silly fetchPackageMetaData  error for request@2.39.* { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+111 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+112 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+112 silly fetchPackageMetaData
+112 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+112 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+112 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+112 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+112 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+112 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+112 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+112 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+112 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+112 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+112 silly fetchPackageMetaData  error for oauth@0.9.* { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+112 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+113 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+113 silly fetchPackageMetaData
+113 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+113 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+113 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+113 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+113 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+113 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+113 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+113 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+113 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+113 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+113 silly fetchPackageMetaData  error for express@4.7.* { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+113 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+114 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+114 silly fetchPackageMetaData
+114 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+114 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+114 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+114 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+114 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+114 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+114 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+114 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+114 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+114 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+114 silly fetchPackageMetaData  error for emoji-strip@0.0.3 { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+114 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+115 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+115 silly fetchPackageMetaData
+115 silly fetchPackageMetaData     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+115 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+115 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+115 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+115 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+115 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+115 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+115 silly fetchPackageMetaData     at onwriteError (_stream_writable.js:313:10)
+115 silly fetchPackageMetaData     at onwrite (_stream_writable.js:331:5)
+115 silly fetchPackageMetaData     at WritableState.onwrite (_stream_writable.js:89:5)
+115 silly fetchPackageMetaData  error for twitter@0.2.* { [Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+115 silly fetchPackageMetaData ] code: 'ECONNRESET' }
+116 silly rollbackFailedOptional Starting
+117 silly rollbackFailedOptional Finishing
+118 silly runTopLevelLifecycles Starting
+119 silly runTopLevelLifecycles Finishing
+120 silly install printInstalled
+121 verbose stack Error: tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+121 verbose stack
+121 verbose stack     at ClientRequest.onError (C:\Users\I027737\AppData\Roaming\npm\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+121 verbose stack     at ClientRequest.g (events.js:260:16)
+121 verbose stack     at emitOne (events.js:77:13)
+121 verbose stack     at ClientRequest.emit (events.js:169:7)
+121 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+121 verbose stack     at emitOne (events.js:77:13)
+121 verbose stack     at TLSSocket.emit (events.js:169:7)
+121 verbose stack     at onwriteError (_stream_writable.js:313:10)
+121 verbose stack     at onwrite (_stream_writable.js:331:5)
+121 verbose stack     at WritableState.onwrite (_stream_writable.js:89:5)
+122 verbose cwd C:\Users\I027737\Desktop\cylon
+123 error Windows_NT 6.1.7601
+124 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\I027737\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+125 error node v4.4.0
+126 error npm  v3.8.1
+127 error code ECONNRESET
+128 error network tunneling socket could not be established, cause=write EPROTO 101057795:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:openssl\ssl\s23_clnt.c:794:
+129 error network This is most likely not a problem with npm itself
+129 error network and is related to network connectivity.
+129 error network In most cases you are behind a proxy or have bad network settings.
+129 error network
+129 error network If you are behind a proxy, please make sure that the
+129 error network 'proxy' config is set properly.  See: 'npm help config'
+130 verbose exit [ 1, true ]

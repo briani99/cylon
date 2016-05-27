@@ -1,0 +1,16 @@
+{
+  "name": "cylon",
+  "version": "1.0.0",
+  "description": "Reading tweets to HCP",
+  "main": "app.js",
+  "dependencies": {
+    "express": "4.7.*",
+	"request": "2.39.*",
+	"oauth": "0.9.*",
+	"twitter": "0.2.*",
+	"hdb": "0.3.*",
+	"emoji-strip": "0.0.3"
+  },
+  "author": "Brian Keenan",
+  "license": "ISC"
+}
